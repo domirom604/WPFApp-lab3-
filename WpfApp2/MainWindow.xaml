@@ -24,8 +24,8 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_File">
                     <MenuItem Header="_New" Click="new_clicked"/>
-                    <MenuItem Header="_Load" />
-                    <MenuItem Header="_Save" />
+                    <MenuItem Header="_Load" Click="load_clicked"/>
+                    <MenuItem Header="_Save" Click="save_cliced"/>
                     <MenuItem Header="_Exit" Click="exit_clicked" />
                 </MenuItem>
                 <MenuItem Header="_Help">

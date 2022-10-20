@@ -148,5 +148,15 @@ namespace WpfApp2
             RangeFrom.Text = "";
             NumberOfElements.Text = "";
         }
+
+        private void load_clicked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void save_cliced(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
